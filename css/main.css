@@ -50,15 +50,14 @@ body{
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
-
-#searchbox{
-    border-radius: 10px;
-    width: 25%;
+.d-flex button .btn-outline-success{
+    padding: unset;
 }
 
 /* header */
 #header{
     background: url(../images/banner-img-1.jpg) top/cover no-repeat;
+    /* background-size: 100% 100%; */
 }
 .carousel-inner h1{
     font-size: 60px;
@@ -166,11 +165,6 @@ body{
 #newsletter .btn:hover{
     background-color: #000;
     border-color: #000;
-}
-
-/* products pages */
-div.row .btn-group .btn{
-    padding: 0;
 }
 
 /* footer */
