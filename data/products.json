@@ -1,6 +1,5 @@
- [
-        {
-            "products": [
+  {
+    "products": {
 				"women":[
                 {
                     "pid": 1,
@@ -13,7 +12,7 @@
                     "category": "women",
                     "subcategory": "dress",
                     "searchtags":"shirt, mufti, casual shirt, mens shirt",
-                    "thumbnail": "https://source.unsplash.com/a-man-standing-in-front-of-a-building-with-ear-buds-in-his-ears-6LgGeKPWpSA"
+                    "thumbnail": "/images/women/dress/partywear.png"
                 },
                 {
                     "pid": 2,
@@ -26,7 +25,7 @@
                     "category": "women",
                     "subcategory": "dress",
                     "searchtags":"cargo, allen solly, cargo pant, mens cargo",
-                    "thumbnail": "/images/2.webp"
+                    "thumbnail": "/images/women/dress/pinkdress.png"
                 },
                 {
                     "pid": 3,
@@ -39,7 +38,7 @@
                     "category": "women",
                     "subcategory": "kurti",
                     "searchtags":"hoodie, addidas, sport hoodie, mens hoodie",
-                    "thumbnail": "https://source.unsplash.com/unknown-celebrity-in-blue-pull-over-hoodie-epNphIjdF84"
+                    "thumbnail": "/images/women/kurti/black_kurti.png"
                 },
                 {
                     "pid": 4,
@@ -52,194 +51,196 @@
                     "category": "women",
                     "subcategory": "kurti",
                     "searchtags":"saree, addidas, sport hoodie, mens hoodie",
-                    "thumbnail": "/images/4.webp"
+                    "thumbnail": "/images/women/kurti/red_kurti.png"
                 },
                 {
                     "pid": 5,
                     "row": "products",
                     "brand":"Van Heusen",
-                    "title": "Red Party Wear",
+                    "title": "denim pant",
                     "price": 939,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
-                    "subcategory": "dresses",
+                    "subcategory": "pants",
                     "searchtags":"dress, van heusen, party wear, women dress",
-                    "thumbnail": "https://source.unsplash.com/a-woman-sitting-on-the-floor-with-a-disco-ball-KHKdR4P8hck"
+                    "thumbnail": "/images/women/pants/c_pant_girl.png"
                 },
                 {
                     "pid": 6,
                     "row": "products",
                     "brand":"Biba",
-                    "title": "Cotton Kurti",
+                    "title": "flower top",
                     "price": 639,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "women",
-                    "subcategory": "kurtis",
+                    "subcategory": "tops",
                     "searchtags":"kurti, biba, kurtas, women kurti",
-                    "thumbnail": "https://source.unsplash.com/portrait-of-a-happy-woman-of-indian-ethnicity-kbjvSC5RnC0"
+                    "thumbnail": "/images/women/tops/c_formal_gray_shirt.png"
                 },
                 {
                     "pid": 7,
                     "row": "products",
-                    "brand":"Kids Fashion",
-                    "title": "Boys Cotton Printed Tshirt",
+                    "brand":"Zara",
+                    "title": "casual partwear",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "tshirts",
+                    "category": "women",
+                    "subcategory": "tops",
                     "searchtags":"tshirt, tshirts, kids tshirt, boys tshirts, kids fashion",
-                    "thumbnail": "https://source.unsplash.com/boy-wearing-yellow-lens-aviator-sunglasses-near-gray-rail-at-daytime-pOhAuDUci0s"
+                    "thumbnail": "/images/women/tops/c_polo_shirt.png"
                 },
                 {
                     "pid": 8,
                     "row": "products",
-                    "brand":"Rancho",
-                    "title": "Boys Cargo Shorts",
+                    "brand":"H & M",
+                    "title": "partywear shirt",
                     "price": 949,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "shorts",
+                    "category": "women",
+                    "subcategory": "tops",
                     "searchtags":"shorts, short, rancho, boys cargo shorts",
-                    "thumbnail": "/images/8.webp"
+                    "thumbnail": "/images/women/tops/c_shirt_girl.png"
                 },
                 {
                     "pid": 9,
                     "row": "products",
-                    "brand":"Ginee",
-                    "title": "Trendy Cotton Hoodie",
+                    "brand":"Mufti",
+                    "title": "Trendy black shirt",
                     "price": 759,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
+                    "category": "women",
                     "searchtags":"hoodie, kids hoodie, ginee, hoodies, ginee",
-                    "subcategory": "winterwear",
-                    "thumbnail": "/images/9.webp"
+                    "subcategory": "tops",
+                    "thumbnail": "/images/women/tops/c_tunic_shirt_girl.png"
                 },
                 {
                     "pid": 10,
-                    "row": "products_102",
+                    "row": "products",
                     "brand":"Raymond",
-                    "title": "Formal Shirt",
+                    "title": "Trendy navy top",
                     "price": 529,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
-                    "category": "men",
+                    "category": "women",
                     "subcategory": "shirts",
                     "searchtags":"shirts, formal, raymond, formal shirts, mens shirt",
-                    "thumbnail": "/images/10.webp"
+                    "thumbnail": "/images/women/tops/c_undershirt.png"
                 },
                 {
                     "pid": 11,
-                    "row": "products_102",
+                    "row": "products",
                     "brand":"Levi's",
-                    "title": "Denim Jeanse",
+                    "title": "western shirt",
                     "price": 859,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
                     "category": "men",
                     "subcategory": "pants",
                     "searchtags":"pants, jeanse, denim jeanse, levis, mens jeans",
-                    "thumbnail": "/images/11.webp"
-                },
-		]
+                    "thumbnail": "/images/women/tops/c_western_shirt.png"
+                }
+		],
+		
+		"men":[
                 {
                     "pid": 12,
-                    "row": "products_102",
+                    "row": "products",
                     "brand":"Nike",
-                    "title": "Sports Hoodie",
+                    "title": "all weather jacket",
                     "price": 549,
                     "subtitle": 2,
                     "ratings": 80,
                     "category": "men",
                     "subcategory": "hoodies",
                     "searchtags":"hoodies, sports hoodie, nike, mens hoodie",
-                    "thumbnail": "/images/12.webp"
+                    "thumbnail": "/images/men/hoodies/all_wether_jacket.png"
                 },
                 {
                     "pid": 13,
-                    "row": "products_102",
-                    "brand":"Kiaraa",
-                    "title": "Woven Silk Saree",
+                    "row": "products",
+                    "brand":"Addidas",
+                    "title": "cotton jacket",
                     "price": 930,
                     "subtitle": 1,
                     "ratings": 90,
-                    "category": "women",
-                    "subcategory": "sarees",
+                    "category": "men",
+                    "subcategory": "hoodies",
                     "searchtags":"sarees, saree, kiaraa, womens saree",
-                    "thumbnail": "/images/13.webp"
+                    "thumbnail": "/images/men/hoodies/c_t_shirt_men.png"
                 },
                 {
                     "pid": 14,
-                    "row": "products_102",
-                    "brand":"Kotty",
-                    "title": "Black Dress",
+                    "row": "products",
+                    "brand":"Peter England",
+                    "title": "Black Hoodie",
                     "price": 739,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "dresses",
+                    "category": "men",
+                    "subcategory": "hoodies",
                     "searchtags":"dresses, dress, kotty, women dress",
-                    "thumbnail": "/images/14.webp"
+                    "thumbnail": "/images/men/hoodies/black_hoodie.png"
                 },
                 {
                     "pid": 15,
-                    "row": "products_102",
-                    "brand":"Dharma",
-                    "title": "Women Kurti",
+                    "row": "products",
+                    "brand":"Fashion Central",
+                    "title": "Red Hoodie",
                     "price": 849,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "kurtis",
+                    "category": "men",
+                    "subcategory": "hoodies",
                     "searchtags":"women, kurta, dharma, women kurta",
-                    "thumbnail": "/images/15.webp"
+                    "thumbnail": "/images/men/hoodies/red_hoodie.png"
                 },
                 {
                     "pid": 16,
-                    "row": "products_102",
+                    "row": "products",
                     "brand":"John Players",
-                    "title": "Boys Trendy T-shirt",
+                    "title": "White Hoodie",
                     "price": 345,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "tshirts",
+                    "category": "men",
+                    "subcategory": "hoodies",
                     "searchtags":"tshirt, tshirts, kids tshirt, boys tshirt, john players",
-                    "thumbnail": "/images/16.webp"
-                },
+                    "thumbnail": "/images/men/hoodies/white_hoodie.png"
+                },	
                 {
                     "pid": 17,
-                    "row": "products_102",
-                    "brand":"Mikey",
-                    "title": "Boys Printed Shorts",
+                    "row": "products",
+                    "brand":"Allen Solly",
+                    "title": "Casual Cream Shirt",
                     "price": 259,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "shorts",
+                    "category": "men",
+                    "subcategory": "shirts",
                     "searchtags":"shorts, short, kids shorts, boys short, mikey",
-                    "thumbnail": "/images/17.webp"
+                    "thumbnail": "/images/men/shirts/casual_shirt.jpg"
                 },
                 {
                     "pid": 18,
-                    "row": "products_102",
-                    "brand":"GINI & JONY",
-                    "title": "Kids Jacket",
+                    "row": "products",
+                    "brand":"Peter England",
+                    "title": "Denim Shirt",
                     "price": 329,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "winterwear",
+                    "category": "men",
+                    "subcategory": "shirts",
                     "searchtags":"winterwear, jacket, kids jacket, gini & jony",
-                    "thumbnail": "/images/18.webp"
+                    "thumbnail": "/images/men/shirts/denim_shirt.png"
                 },
                 {
                     "pid": 19,
-                    "row": "products_103",
+                    "row": "products",
                     "brand":"Cotton King",
                     "title": "Formal Shirt",
                     "price": 550,
@@ -248,229 +249,284 @@
                     "category": "men",
                     "subcategory": "shirts",
                     "searchtags":"shirt, shirts, cotton king, mens shirt",
-                    "thumbnail": "/images/19.webp"
+                    "thumbnail": "/images/men/shirts/formal_shirt.png"
                 },
                 {
                     "pid": 20,
-                    "row": "products_103",
+                    "row": "products",
                     "brand":"Tanip",
-                    "title": "Casual Trouser",
+                    "title": "Trendy Shirt",
                     "price": 569,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
                     "category": "men",
-                    "subcategory": "pants",
+                    "subcategory": "shirts",
                     "searchtags":"trouser, trousers, tanip, mens trouser, mens pant",
-                    "thumbnail": "/images/20.webp"
+                    "thumbnail": "/images/men/shirts/trendy_shirt.png"
                 },
                 {
                     "pid": 21,
-                    "row": "products_103",
-                    "brand":"Puma",
-                    "title": "Zipper Jacket",
+                    "row": "products",
+                    "brand":"Vimal",
+                    "title": "Partywear Shirt",
                     "price": 749,
                     "subtitle": 2,
                     "ratings": 80,
                     "category": "men",
-                    "subcategory": "hoodies",
+                    "subcategory": "shirts",
                     "searchtags":"hoodies, hoodie, puma, jackets, mens hoodie, jacket",
-                    "thumbnail": "/images/21.webp"
+                    "thumbnail": "/images/men/shirts/partywear_shirt.jpg"
                 },
                 {
                     "pid": 22,
-                    "row": "products_103",
-                    "brand":"Banarasi",
-                    "title": "Cotton Saree",
+                    "row": "products",
+                    "brand":"US Polo",
+                    "title": "Blue Line Casual Shirt",
                     "price": 675,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "sarees",
+                    "category": "men",
+                    "subcategory": "shirts",
                     "searchtags":"sarees, saree, banarasi, banarasi saree, women",
-                    "thumbnail": "/images/22.webp"
+                    "thumbnail": "/images/men/shirts/blue_line_shirt.jpg"
                 },
                 {
                     "pid": 23,
-                    "row": "products_103",
-                    "brand":"Zara",
-                    "title": "Crepe Dress",
+                    "row": "products",
+                    "brand":"Nike",
+                    "title": "Blue Short",
                     "price": 579,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "dresses",
+                    "category": "men",
+                    "subcategory": "shorts",
                     "searchtags":"dresses, dresse, zara, women, womens dress",
-                    "thumbnail": "/images/23.webp"
+                    "thumbnail": "/images/men/shorts/blue_shorts.png"
                 },
                 {
                     "pid": 24,
-                    "row": "products_103",
-                    "brand":"Fabindia",
-                    "title": "Trendy Kurti",
+                    "row": "products",
+                    "brand":"Addidas",
+                    "title": "Cotton Short",
                     "price": 764,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "kurtis",
+                    "category": "men",
+                    "subcategory": "shorts",
                     "searchtags":"kurtis, kurti, fabindia, women, womens kurta",
-                    "thumbnail": "/images/24.webp"
+                    "thumbnail": "/images/men/shorts/cotton_shorts.png"
                 },
                 {
                     "pid": 25,
-                    "row": "products_103",
-                    "brand":"GINI & JONY",
-                    "title": "Boys Printed Hoodie",
+                    "row": "products",
+                    "brand":"Sporto",
+                    "title": "Naylon Short",
                     "price": 410,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "tshirts",
+                    "category": "men",
+                    "subcategory": "shorts",
                     "searchtags":"tshirts, tshirt, fabindia, kids, kids tshirt, boys tshirt",
-                    "thumbnail": "/images/25.webp"
+                    "thumbnail": "/images/men/shorts/nylon_shorts.png"
                 },
                 {
                     "pid": 26,
-                    "row": "products_103",
-                    "brand":"GINI & JONY",
-                    "title": "Boys Trendy Joggers",
+                    "row": "products",
+                    "brand":"Nike",
+                    "title": "Black T-shirt",
                     "price": 349,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "shorts",
+                    "category": "men",
+                    "subcategory": "tshirt",
                     "searchtags":"shorts, short, gini & jony, kids, kids short, joggers",
-                    "thumbnail": "/images/26.webp"
+                    "thumbnail": "/images/men/t_shirt/black_t_shirt.jpg"
                 },
                 {
                     "pid": 27,
-                    "row": "products_103",
+                    "row": "products",
                     "brand":"Mikey",
-                    "title": "Kids Cotton Zipper",
+                    "title": "White Polo",
                     "price": 549,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "kids",
-                    "subcategory": "winterwear",
+                    "category": "men",
+                    "subcategory": "tshirt",
                     "searchtags":"winterwears, mikey, kids, kids zipper, winterwear",
-                    "thumbnail": "/images/27.webp"
-                },
+                    "thumbnail": "/images/men/t_shirt/white_polo.png"
+                }
+			],	
+			
+			"kids":[
                 {
                     "pid": 28,
-                    "row": "products_112",
-                    "brand":"Park Avenue",
-                    "title": "Slim Fit Shirt",
+                    "row": "products",
+                    "brand":"Giny & Johny",
+                    "title": "Cotton Joggers",
                     "price": 469,
                     "subtitle": "woolen cloth for summer and winter",
                     "ratings": 60,
-                    "category": "men",
-                    "subcategory": "shirts",
+                    "category": "kids",
+                    "subcategory": "boys",
                     "searchtags":"shirts, shirt, park avenue, mens shirt, formal shirts",
-                    "thumbnail": "/images/28.webp"
+                    "thumbnail": "/images/kids/boys/boys_cotton_joggers.png"
                 },
                 {
                     "pid": 29,
-                    "row": "products_113",
-                    "brand":"Indiclub",
-                    "title": "Strechable Casual Trouser",
+                    "row": "products",
+                    "brand":"MIST N FOGG",
+                    "title": "Boys Cotton Track",
                     "price": 669,
                     "subtitle": "silicon glves with strong material",
                     "ratings": 58,
-                    "category": "men",
-                    "subcategory": "pants",
+                    "category": "kids",
+                    "subcategory": "boys",
                     "searchtags":"pants, pant, indiclub, mens trouser, trousers, trouser",
-                    "thumbnail": "/images/29.webp"
+                    "thumbnail": "/images/kids/boys/boys_cotton_track.jpg"
                 },
                 {
                     "pid": 30,
-                    "row": "products_114",
-                    "brand":"Roadster",
-                    "title": "Solid Bomber",
+                    "row": "products",
+                    "brand":"Billion",
+                    "title": "Boys Black Shirt",
                     "price": 812,
                     "subtitle": 2,
                     "ratings": 80,
-                    "category": "men",
-                    "subcategory": "hoodies",
+                    "category": "kids",
+                    "subcategory": "boys",
                     "searchtags":"hoodies, hoodie, roadster, mens hoodie, mens hoodies, bomber",
-                    "thumbnail": "/images/30.webp"
+                    "thumbnail": "/images/kids/boys/boys_regular_fit_shirt.jpg"
                 },
                 {
                     "pid": 31,
-                    "row": "products_115",
-                    "brand":"King Vulture",
-                    "title": "Woven Banarasi Saree",
+                    "row": "products",
+                    "brand":"Giny & Johny",
+                    "title": "Girls Casual Dress",
                     "price": 1609,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "sarees",
+                    "category": "kids",
+                    "subcategory": "girls",
                     "searchtags":"sarees, saree, women sarees, banarasi, banarasi sarees",
-                    "thumbnail": "/images/31.webp"
+                    "thumbnail": "/images/kids/girls/girls_casual_dress.jpg"
                 },
                 {
                     "pid": 32,
-                    "row": "products_116",
-                    "brand":"Presha",
-                    "title": "Maxi Dress",
-                    "price": 749,
+                    "row": "products",
+					"brand":"Giny & Johny",
+                    "title": "Girls Casual Sleeveless Dress",
+                    "price": 1609,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "dresses",
-                    "searchtags":"dresses, dress, presha, women dresses, womens dress",
-                    "thumbnail": "/images/32.webp"
+                    "category": "kids",
+                    "subcategory": "girls",
+                    "searchtags":"sarees, saree, women sarees, banarasi, banarasi sarees",
+                    "thumbnail": "/images/kids/girls/girls_casual_dress_sleevless.jpg"
                 },
                 {
                     "pid": 33,
-                    "row": "products_117",
-                    "brand":"Fashtown",
-                    "title": "Chicken Embroidery Kurti",
+                    "row": "products",
+                    "brand":"Fashiontown",
+                    "title": "Girls Casual Yellow Dress",
                     "price": 569,
                     "subtitle": 1,
                     "ratings": 930,
-                    "category": "women",
-                    "subcategory": "kurtis",
+                    "category": "kids",
+                    "subcategory": "girls",
                     "searchtags":"kurtis, kurta, kurtas, womens kurtas, womens kurtis",
-                    "thumbnail": "/images/33.webp"
+                    "thumbnail": "/images/kids/girls/girls_casual_yellow_dress.jpg"
                 },
                 {
                     "pid": 34,
-                    "row": "products_118",
+                    "row": "products",
                     "brand":"Billion",
-                    "title": "Boys Stripped T-shirt",
+                    "title": "Girls Denim Dress",
                     "price": 359,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
-                    "subcategory": "tshirts",
+                    "subcategory": "girls",
                     "searchtags":"tshirts, tshirt, kids, kids tshirt, boys tshirt",
-                    "thumbnail": "/images/34.webp"
+                    "thumbnail": "/images/kids/girls/girls_denim_dress.jpg"
                 },
                 {
                     "pid": 35,
-                    "row": "products_119",
+                    "row": "products",
                     "brand":"MIST N FOGG",
-                    "title": "Boys Casual Shorts",
+                    "title": "Girls Jeans",
                     "price": 350,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
-                    "subcategory": "shorts",
+                    "subcategory": "girls",
                     "searchtags":"shorts, short, kids, kids shorts, boys shorts",
-                    "thumbnail": "/images/35.webp"
+                    "thumbnail": "/images/kids/girls/girls_jeans.jpg"
                 },
                 {
                     "pid": 36,
-                    "row": "products_120",
+                    "row": "products",
                     "brand":"Hellcat",
-                    "title": "Full Sleeve Hoodie",
+                    "title": "Girls Printed Pant",
                     "price": 499,
                     "subtitle": 1,
                     "ratings": 930,
                     "category": "kids",
-                    "subcategory": "winterwear",
+                    "subcategory": "girls",
                     "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
-                    "thumbnail": "/images/36.webp"
+                    "thumbnail": "/images/kids/girls/girls_pant_printed.jpg"
+                },
+				{
+                    "pid": 37,
+                    "row": "products",
+                    "brand":"Giny & Johny",
+                    "title": "Girls Party Dress",
+                    "price": 499,
+                    "subtitle": 1,
+                    "ratings": 930,
+                    "category": "kids",
+                    "subcategory": "girls",
+                    "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
+                    "thumbnail": "/images/kids/girls/party_dress_girls.jpg"
+                },
+				{
+                    "pid": 38,
+                    "row": "products",
+                    "brand":"Giny & Johny",
+                    "title": "Girls Navy Party Dress",
+                    "price": 499,
+                    "subtitle": 1,
+                    "ratings": 930,
+                    "category": "kids",
+                    "subcategory": "girls",
+                    "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
+                    "thumbnail": "/images/kids/girls/party_dress_girls_navy.jpg"
+                },
+				{
+                    "pid": 39,
+                    "row": "products",
+                    "brand":"Hellcat",
+                    "title": "Trendy T Shirt & Pant",
+                    "price": 499,
+                    "subtitle": 1,
+                    "ratings": 930,
+                    "category": "kids",
+                    "subcategory": "unisex",
+                    "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
+                    "thumbnail": "/images/kids/girls/trendy_tshirt_pant_1.jpg"
+                },
+				{
+                    "pid": 40,
+                    "row": "products",
+                    "brand":"Hellcat",
+                    "title": "Trendy T Shirt & Pant",
+                    "price": 499,
+                    "subtitle": 1,
+                    "ratings": 930,
+                    "category": "kids",
+                    "subcategory": "unisex",
+                    "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
+                    "thumbnail": "/images/kids/girls/trendy_tshirt_pant_2.jpg"
                 }
 		]
-	}
-]
+  }
+}         
