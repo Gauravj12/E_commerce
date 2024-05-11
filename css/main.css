@@ -93,6 +93,11 @@ body{
 .filter-button-group .btn:hover{
     color: #fff!important;
 }
+
+.collection-img img{
+    height: 30vh;
+}
+
 .collection-img span{
     top: 20px;
     right: 20px;
