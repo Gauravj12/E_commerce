@@ -17,11 +17,11 @@
      <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
         <div class = "container">
             <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "/index.html">
-                <img src = "/images/shopping-bag-icon.png" alt = "site icon">
-                <span class = "text-uppercase fw-lighter ms-2">Attire</span>
+                <img src = "images/shopping-bag-icon.png" alt = "site icon">
+                <span class = "text-uppercase fw-lighter ms-2">Wardroab</span>
             </a>
-              
-            <div class = "order-lg-2 nav-btns">
+
+            <div class = "order-lg-2 nav-btns d-flex">
                 <button type = "button" class = "btn position-relative">
                     <i class = "fa fa-shopping-cart"></i>
                     <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
@@ -30,9 +30,6 @@
                     <i class = "fa fa-heart"></i>
                     <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
                 </button>
-                <!-- <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-search"></i>
-                </button> -->
             </div>
 
             <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
@@ -40,69 +37,73 @@
             </button>
 
             <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                <form class="d-flex">
+                <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                   </form>
                 <ul class = "navbar-nav mx-auto text-center">
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "/index.html" >home</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#header">home</a>
                     </li>
                     <li class = "nav-item px-2 py-2 dropdown">
-                        <a class = "nav-link text-uppercase text-dark dropdown-toggle" id="navbarDropdown" href = "#" role="button" data-bs-toggle="dropdown" aria-expanded="false">products</a>
+                        <a class = "nav-link text-uppercase text-dark dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">products</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="/pages/all.html">All</a></li>
-                            <li><a class="dropdown-item" href="#">Women</a></li>
+                            <li><a class="dropdown-item" href="/pages/all_products.html">All</a></li>
+                            <li><a class="dropdown-item" href="/pages/women.html">Women</a></li>
                             <li><a class="dropdown-item" href="#">Men</a></li>
                             <li><a class="dropdown-item" href="#">Kids</a></li>
                           </ul>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#special">contact</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#special">specials</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "#blogs">login</a>
+                        <a class = "nav-link text-uppercase text-dark" href = "#blogs">contact</a>
                     </li>
                     <li class = "nav-item px-2 py-2">
                         <a class = "nav-link text-uppercase text-dark" href = "#about">about us</a>
                     </li>
-                    <!-- <li class = "nav-item px-2 py-2 border-0">
-                        <a class = "nav-link text-uppercase text-dark" href = "#popular">popular</a>
-                    </li> -->
+                    <li class = "nav-item px-2 py-2 border-0">
+                        <a class = "nav-link text-uppercase text-dark" href = "#popular">login</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     <!-- end of navbar -->
+    
     <div class = "container" style="padding-top: 105px;">
+        <div class = "title text-center">
+            <h3 class = "position-relative d-inline-block">All</h3>
+        </div>
+
+        <div class = "row">
+            <div class="col-md-12 text-center">
+            <div class="btn-group btn-group-me" role="group" aria-label="First group">
+                <button type="button" class="btn btn-primary">Relevance</button>
+                <button type="button" class="btn btn-primary">Price-High to low</button>
+                <button type="button" class="btn btn-primary">Price-Low to high</button>
+                <button type="button" class="btn btn-primary">Ratings</button>
+              </div>
+            </div>
+            </div>
     <div class="d-flex align-items-start">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <button class="nav-link active" id="v-pills-all-tab" data-bs-toggle="pill" data-bs-target="#v-pills-all" type="button" role="tab" aria-controls="v-pills-all" aria-selected="true">All</button>
-          <button class="nav-link" id="v-pills-women-tab" data-bs-toggle="pill" data-bs-target="#v-pills-women" type="button" role="tab" aria-controls="v-pills-women" aria-selected="false">Women</button>
-          <button class="nav-link" id="v-pills-men-tab" data-bs-toggle="pill" data-bs-target="#v-pills-men" type="button" role="tab" aria-controls="v-pills-men" aria-selected="false">Men</button>
-          <button class="nav-link" id="v-pills-kids-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kids" type="button" role="tab" aria-controls="v-pills-kids" aria-selected="false">Kids</button>
+          <button onclick="getVal('all_sec')" class="nav-link active" id="v-pills-all-tab" data-bs-toggle="pill" data-bs-target="#v-pills-all" type="button" role="tab" aria-controls="v-pills-all" aria-selected="true" value="all">All</button>
+          <button onclick="getVal('all_women')" class="nav-link" id="v-pills-women-tab" data-bs-toggle="pill" data-bs-target="#v-pills-women" type="button" role="tab" aria-controls="v-pills-women" aria-selected="false" value="women">Women</button>
+          <button onclick="getVal('all_men')" class="nav-link" id="v-pills-men-tab" data-bs-toggle="pill" data-bs-target="#v-pills-men" type="button" role="tab" aria-controls="v-pills-men" aria-selected="false" value="men">Men</button>
+          <button onclick="getVal('all_kids')" class="nav-link" id="v-pills-kids-tab" data-bs-toggle="pill" data-bs-target="#v-pills-kids" type="button" role="tab" aria-controls="v-pills-kids" aria-selected="false" value="kids">Kids</button>
         </div>
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-all" role="tabpanel" aria-labelledby="v-pills-all-tab">
 
             <section id = "collection" class = "py-5">
                 <div class = "container">
-                    <div class = "title text-center">
-                        <h3 class = "position-relative d-inline-block">All</h3>
-                    </div>
-        
-                    <div class = "row g-0">
-                        <div class="btn-group me-2" role="group" aria-label="First group">
-                            <button type="button" class="btn btn-primary">Relevance</button>
-                            <button type="button" class="btn btn-primary">Price-High to low</button>
-                            <button type="button" class="btn btn-primary">Price-Low to high</button>
-                            <button type="button" class="btn btn-primary">Ratings</button>
-                          </div>
-        
+ 
                         <div id="all_sec" class = "collection-list mt-4 row gx-0 gy-3">
                             
                         </div>
-                    </div>
+                    
                 </div>
             </section>
 
@@ -111,193 +112,52 @@
 
             <section id = "collection" class = "py-5">
                 <div class = "container">
-                    <div class = "title text-center">
-                        <h3 class = "position-relative d-inline-block">All</h3>
-                    </div>
-        
-                    <div class = "row g-0">
-                        <div class="btn-group me-2" role="group" aria-label="First group">
-                            <button type="button" class="btn btn-primary">Relevance</button>
-                            <button type="button" class="btn btn-primary">Price-High to low</button>
-                            <button type="button" class="btn btn-primary">Price-Low to high</button>
-                            <button type="button" class="btn btn-primary">Ratings</button>
-                          </div>
+                    
         
                         <div id ="women_sec" class = "collection-list mt-4 row gx-0 gy-3">
                            
                         </div>
 
 
-                    </div>
+                   
                 </div>
             </section>
 
           </div>
-          <div class="tab-pane fade" id="v-pills-men" role="tabpanel" aria-labelledby="v-pills-men-tab">Men</div>
+          <div class="tab-pane fade" id="v-pills-men" role="tabpanel" aria-labelledby="v-pills-men-tab">
+            <section id = "collection" class = "py-5">
+                <div class = "container">
+                   
+        
+                   
+                       
+        
+                        <div id ="men_sec" class = "collection-list mt-4 row gx-0 gy-3">
+                           
+                        </div>
+
+
+                   
+                </div>
+            </section>
+          </div>
           <div class="tab-pane fade" id="v-pills-kids" role="tabpanel" aria-labelledby="v-pills-kids-tab">
 
             <section id = "collection" class = "py-5">
                 <div class = "container">
-                    <div class = "title text-center">
-                        <h3 class = "position-relative d-inline-block">Kids</h3>
-                    </div>
+                    
         
-                    <div class = "row g-0">
-                        <div class="btn-group me-2" role="group" aria-label="First group">
-                            <button type="button" class="btn btn-primary">Relevance</button>
-                            <button type="button" class="btn btn-primary">Price-High to low</button>
-                            <button type="button" class="btn btn-primary">Price-Low to high</button>
-                            <button type="button" class="btn btn-primary">Ratings</button>
-                          </div>
+                    
+                       
         
-                        <div class = "collection-list mt-4 row gx-0 gy-3">
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/c_pinkshirt.png" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/t_shirt.png" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/kids_tshirt.png" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/hm_shirt.png" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/25.webp" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 new">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/18.webp" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/16.webp" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
-        
-                            <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
-                                <div class = "collection-img position-relative">
-                                    <img src = "/images/9.png" class = "w-100">
-                                    <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">sale</span>
-                                </div>
-                                <div class = "text-center">
-                                    <div class = "rating mt-3">
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                        <span class = "text-primary"><i class = "fas fa-star"></i></span>
-                                    </div>
-                                    <p class = "text-capitalize my-1">gray shirt</p>
-                                    <span class = "fw-bold">$ 45.50</span>
-                                </div>
-                            </div>
+                        <div id ="kids_sec" class = "collection-list mt-4 row gx-0 gy-3">
+                           
                         </div>
-                    </div>
+
+
                 </div>
             </section>
+            
 
           </div>
         </div>

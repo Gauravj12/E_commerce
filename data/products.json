@@ -184,7 +184,7 @@
                     "category": "men",
                     "subcategory": "hoodies",
                     "searchtags":"dresses, dress, kotty, women dress",
-                    "thumbnail": "/images/men/hoodies/black_hoodie.png"
+                    "thumbnail": "/images/men/hoodies/black_hoodie.jpg"
                 },
                 {
                     "pid": 15,
@@ -197,7 +197,7 @@
                     "category": "men",
                     "subcategory": "hoodies",
                     "searchtags":"women, kurta, dharma, women kurta",
-                    "thumbnail": "/images/men/hoodies/red_hoodie.png"
+                    "thumbnail": "/images/men/hoodies/red_hoodie.jpg"
                 },
                 {
                     "pid": 16,
@@ -262,7 +262,7 @@
                     "category": "men",
                     "subcategory": "shirts",
                     "searchtags":"trouser, trousers, tanip, mens trouser, mens pant",
-                    "thumbnail": "/images/men/shirts/trendy_shirt.png"
+                    "thumbnail": "/images/men/shirts/trendy_shirt.jpg"
                 },
                 {
                     "pid": 21,
@@ -340,7 +340,7 @@
                     "category": "men",
                     "subcategory": "tshirt",
                     "searchtags":"shorts, short, gini & jony, kids, kids short, joggers",
-                    "thumbnail": "/images/men/t_shirt/black_t_shirt.jpg"
+                    "thumbnail": "/images/men/t_shirts/black_t_shirt.jpg"
                 },
                 {
                     "pid": 27,
@@ -353,7 +353,7 @@
                     "category": "men",
                     "subcategory": "tshirt",
                     "searchtags":"winterwears, mikey, kids, kids zipper, winterwear",
-                    "thumbnail": "/images/men/t_shirt/white_polo.png"
+                    "thumbnail": "/images/men/t_shirts/white_polo.png"
                 }
 			],	
 			
@@ -369,7 +369,7 @@
                     "category": "kids",
                     "subcategory": "boys",
                     "searchtags":"shirts, shirt, park avenue, mens shirt, formal shirts",
-                    "thumbnail": "/images/kids/boys/boys_cotton_joggers.png"
+                    "thumbnail": "/images/kids/boys/boys_cotton_joggers.jpg"
                 },
                 {
                     "pid": 29,
@@ -512,7 +512,7 @@
                     "category": "kids",
                     "subcategory": "unisex",
                     "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
-                    "thumbnail": "/images/kids/girls/trendy_tshirt_pant_1.jpg"
+                    "thumbnail": "/images/kids/unisex/trendy_tshirt_pant_1.png"
                 },
 				{
                     "pid": 40,
@@ -525,7 +525,7 @@
                     "category": "kids",
                     "subcategory": "unisex",
                     "searchtags":"winterwear, winterwears, kids, kids hoodie, hoodies, hoodie",
-                    "thumbnail": "/images/kids/girls/trendy_tshirt_pant_2.jpg"
+                    "thumbnail": "/images/kids/unisex/trendy_tshirt_pant_2.png"
                 }
 		]
   }
